@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Design Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Sam Hall`,
+      summary: `who lives and works in Sydney building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A design portfolio.`,
+    siteUrl: `https://halcha.github.io/blog`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `hamsall`,
     },
   },
   plugins: [
@@ -129,4 +129,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+    pathPrefix: "/design-blog",
 }
